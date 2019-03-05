@@ -1,6 +1,4 @@
-variable "ssh_keys" {
-  type = "list"
-}
+variable "ssh_key" {}
 
 variable "name" {
   description = "Droplet name"
