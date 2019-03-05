@@ -1,6 +1,6 @@
 variable "ssh_key" {}
 
-variable "name" {
+variable "name_prefix" {
   description = "Droplet name"
 }
 
