@@ -6,4 +6,5 @@ resource "digitalocean_droplet" "main" {
   size               = "${var.droplet_size}"
   private_networking = true
   ssh_keys           = [ "${var.ssh_key}" ]
+  user_data          = "${var.user_data}"
 }

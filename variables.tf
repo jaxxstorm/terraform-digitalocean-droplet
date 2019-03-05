@@ -19,3 +19,8 @@ variable "droplet_size" {
 variable "count" {
   default = 1
 }
+
+variable "user_data" {
+  default = ""
+  description = "Bootstrap user data for the droplet"
+}
