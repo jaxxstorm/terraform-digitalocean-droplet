@@ -1,4 +1,6 @@
-variable "digitalocean_keys" {}
+variable "ssh_keys" {
+  type = "list"
+}
 
 variable "name" {
   description = "Droplet name"
@@ -8,11 +10,11 @@ variable "image" {
   default = "centos-7-x64"
 }
 
-variable "digitalocean_region" {
+variable "region" {
   default = "lon1"
 }
 
-variable "digitalocean_droplet_size" {
+variable "droplet_size" {
   default = "2gb"
 }
 
